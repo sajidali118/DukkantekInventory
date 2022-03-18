@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukkantekInventory", "DukkantekInventory\DukkantekInventory.csproj", "{A6A6741D-4F35-4499-ADB9-7B2E26B2898F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkantek.Domain", "Dukkantek.Domain\Dukkantek.Domain.csproj", "{AADE2322-5502-40BD-A0DF-E5C320EAA3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkantek.Repo", "Dukkantek.Repo\Dukkantek.Repo.csproj", "{66E438E8-9745-446E-8D20-5A98099DCD20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkantek.ViewModel", "Dukkantek.ViewModel\Dukkantek.ViewModel.csproj", "{F005D5AF-5268-42FF-B50C-B4493D7D3E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkantek.EF", "Dukkantek.EF\Dukkantek.EF.csproj", "{70FBC3EC-9CF0-49C6-A3C2-F978D5BE3A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkantek.Infra.IoC", "Dukkantek.Infra.IoC\Dukkantek.Infra.IoC.csproj", "{8B628F4B-5DC3-4004-A82C-9CAF808AFEFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A6741D-4F35-4499-ADB9-7B2E26B2898F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A6741D-4F35-4499-ADB9-7B2E26B2898F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A6741D-4F35-4499-ADB9-7B2E26B2898F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A6741D-4F35-4499-ADB9-7B2E26B2898F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADE2322-5502-40BD-A0DF-E5C320EAA3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADE2322-5502-40BD-A0DF-E5C320EAA3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADE2322-5502-40BD-A0DF-E5C320EAA3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADE2322-5502-40BD-A0DF-E5C320EAA3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E438E8-9745-446E-8D20-5A98099DCD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E438E8-9745-446E-8D20-5A98099DCD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E438E8-9745-446E-8D20-5A98099DCD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E438E8-9745-446E-8D20-5A98099DCD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F005D5AF-5268-42FF-B50C-B4493D7D3E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F005D5AF-5268-42FF-B50C-B4493D7D3E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F005D5AF-5268-42FF-B50C-B4493D7D3E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F005D5AF-5268-42FF-B50C-B4493D7D3E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FBC3EC-9CF0-49C6-A3C2-F978D5BE3A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FBC3EC-9CF0-49C6-A3C2-F978D5BE3A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FBC3EC-9CF0-49C6-A3C2-F978D5BE3A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FBC3EC-9CF0-49C6-A3C2-F978D5BE3A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B628F4B-5DC3-4004-A82C-9CAF808AFEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B628F4B-5DC3-4004-A82C-9CAF808AFEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B628F4B-5DC3-4004-A82C-9CAF808AFEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B628F4B-5DC3-4004-A82C-9CAF808AFEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3455766B-7421-43DE-925E-33E450820141}
+	EndGlobalSection
+EndGlobal

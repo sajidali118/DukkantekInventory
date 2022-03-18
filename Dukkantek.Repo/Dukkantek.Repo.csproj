@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.EFCore.Extensions" Version="1.1.0" />
+		<PackageReference Include="Autofac" Version="4.9.4" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+		<PackageReference Include="Dapper" Version="2.0.78" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.21" />
+		<PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Dukkantek.Domain\Dukkantek.Domain.csproj" />
+	  <ProjectReference Include="..\Dukkantek.EF\Dukkantek.EF.csproj" />
+	  <ProjectReference Include="..\Dukkantek.ViewModel\Dukkantek.ViewModel.csproj" />
+	</ItemGroup>
+
+</Project>
